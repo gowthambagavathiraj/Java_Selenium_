@@ -33,6 +33,10 @@ public class Selenium_Browser_Commands {
 		// Get window size
 		System.out.println(driver.manage().window().getSize());
 		
+
+		System.out.println("Width: " + size.getWidth());
+		System.out.println("Height: " + size.getHeight());
+		
 		driver.close();
 	}
 
